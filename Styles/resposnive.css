@@ -1,0 +1,140 @@
+/* =================================== */
+/* 1. HOVER AND INTERACTIVE STYLES     */
+/* =================================== */
+
+/* --- Hover effect for section images --- */
+.subcontainers .image img {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.subcontainers .image img:hover {
+    transform: scale(1.05);
+    /* Slightly enlarges the image */
+    opacity: 0.85;
+    /* Makes it slightly transparent */
+}
+
+/* --- Hover effect for "read more" and "scroll down" links --- */
+.scroll__box {
+    cursor: pointer;
+    /* Changes the cursor to a pointer on hover */
+    transition: opacity 0.3s ease;
+}
+
+.scroll__box:hover {
+    opacity: 0.7;
+    /* Fades the text and icon slightly */
+}
+
+/* --- Hover effect for Account button --- */
+.accounts ul li {
+    transition: transform 0.3s ease;
+}
+
+.accounts ul li:hover {
+    transform: scale(1.1);
+    /* Slightly enlarges the account icon and text */
+}
+
+
+/* =================================== */
+/* 2. RESPONSIVENESS (MEDIA QUERIES)   */
+/* =================================== */
+
+/* --- For Tablets (screens smaller than 1024px) --- */
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        /* Stacks the social links on top of the content */
+        justify-content: center;
+        text-align: center;
+        gap: 80px;
+    }
+
+    .social {
+        rotate: 0deg;
+        /* Un-rotates the social media links */
+    }
+
+    .heading__box h1 {
+        font-size: 2.5rem;
+        /* Reduces heading size */
+    }
+
+    .scroll__box {
+        justify-content: center;
+        /* Centers the "scroll down" button */
+    }
+
+    .subcontainers {
+        flex-direction: column;
+        /* Stacks the content and image vertically */
+        height: auto;
+        /* Allows the container to grow as needed */
+        align-items: center;
+    }
+
+    .subcontainers .image img {
+        position: static;
+        /* Removes the absolute-like positioning */
+        width: 80%;
+        /* Makes the image responsive */
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #secondpart {
+        flex-direction: column;
+        /* Ensures the second part also stacks correctly */
+    }
+
+    .main_content,
+    .number {
+        position: static;
+        /* Resets positioning */
+        width: 100%;
+        text-align: center;
+    }
+
+    .x.y {
+        justify-content: center;
+        /* Centers the "read more" button */
+    }
+}
+
+/* --- For Mobile Phones (screens smaller than 600px) --- */
+@media (max-width: 600px) {
+    .nav__list {
+        display: none;
+        /* Hides the main navigation links for simplicity */
+        /* A hamburger menu would be the next step! */
+    }
+
+    .heading__box h1 {
+        font-size: 2rem;
+        /* Further reduces heading size */
+    }
+
+    .heading h1 {
+        font-size: 2.2rem;
+    }
+
+    .logo__bar {
+        justify-content: flex-start;
+        /* Aligns logo to the left */
+        flex-grow: 1;
+    }
+
+    .accounts {
+        margin-right: 0;
+        /* Removes extra margin */
+    }
+
+    .footer .foot {
+        flex-direction: column;
+        /* Stacks footer columns */
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+}

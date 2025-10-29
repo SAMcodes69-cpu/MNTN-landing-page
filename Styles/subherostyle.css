@@ -1,0 +1,111 @@
+.sub__hero__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: 6vh;
+}
+
+.sub__hero {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5vw;
+}
+
+.subcontainers {
+    display: flex;
+    height: 460px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.number,
+.main_content {
+    margin: 10px;
+    padding: 10px;
+}
+
+.x {
+    width: 70%;
+}
+
+.number img {
+    height: 120px;
+    position: relative;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.number {
+    position: relative;
+    left: 50px;
+}
+
+.main_content {
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    right: 40px;
+}
+
+.heading h1 {
+    line-height: 100%;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.textpart {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    size: 15px;
+
+}
+
+.image img {
+    height: 460px;
+    position: relative;
+    right: 180px;
+}
+
+.y {
+    position: relative;
+    top: 20px;
+    display: flex;
+    gap: 1vw;
+    align-items: normal;
+}
+
+.y .text {
+    color: rgba(251, 215, 132, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 700;
+}
+
+.reverse {
+    display: flex;
+}
+
+#secondpart {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#secondpart .main_content {
+    right: auto;
+    left: 40px;
+}
+
+#secondpart .number {
+    left: 120px;
+
+}
+
+#secondpart .image img {
+    right: 0;
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(11, 29, 38, 1);
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.nav__bar {
+    margin: 0 auto;
+    display: flex;
+    width: 90vw;
+    height: 60px;
+    align-items: center;
+}
+
+.logo__bar img {
+    height: 25px;
+    width: auto;
+}
+
+.nav__list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3vw;
+}
+
+.nav__list ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 100%;
+    font-family: 'Gilroy', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.nav__list ul li a:hover {
+    opacity: 0.7;
+}
+
+.a {
+    display: flex;
+    width: 100%;
+}
+
+.accounts {
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.accounts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accounts ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.accounts li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.accounts li a:hover {
+    opacity: 0.7;
+}
+
+.account_img {
+    display: flex;
+    align-items: center;
+}
+
+.account_img img {
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}

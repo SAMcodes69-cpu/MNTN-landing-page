@@ -1,0 +1,85 @@
+#none {
+    border: none;
+}
+
+.hero__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../Assests/VG.png'),
+        url('../Assests/MG.png'),
+        url('../Assests/HG.png');
+    background-repeat: no-repeat;
+    background-position: bottom center, center center, top center;
+    background-size: cover; */
+}
+
+.hero {
+    height: 80vh;
+    width: 90vw;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    /* width: 30vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8vh;
+    rotate: calc(90deg);
+}
+
+.content {
+    width: 70%;
+}
+
+.social .text {
+    line-height: 100%;
+    font-weight: 600;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.hiking__guide__box {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.5vw;
+    /* color: rgba(251, 215, 132, 1); */
+    line-height: 100%;
+}
+
+.rectangle {
+    height: 0px;
+    width: 90px;
+    border: 2px solid rgba(251, 215, 132, 1);
+}
+
+.hiking__guide__box .text {
+    color: rgba(251, 215, 132, 1);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+.heading__box h1 {
+    line-height: 100%;
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.scroll__box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.scroll__box .text {
+    font-family: 'Gilroy', sans-serif;
+    line-height: 100%;
+}
