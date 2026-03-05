@@ -5,7 +5,7 @@ A modern, responsive single-page landing website for **MNTN** — built with pur
 Designed with clean typography, smooth scrolling sections and attractive hero, features, about, and footer sections.
 
 Live Demo:  
-
+https://samcodes69-cpu.github.io/MNTN-landing-page/
 
 ## ✨ Features
 
